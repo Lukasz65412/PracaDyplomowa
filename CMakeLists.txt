@@ -14,7 +14,8 @@ add_executable(PracaDyplomowa main.cpp
         node.h
         AVX2Search.h
         AVX2Search.cpp
-        DBUtility.cpp)
+        DBUtility.cpp
+        Test.cpp)
 
 target_compile_options(PracaDyplomowa PRIVATE -march=native)
 
